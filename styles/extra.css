@@ -85,7 +85,11 @@ body {
   background-color: #eef2f8;
 }
 
+/* Oculta el bloque de repo ("owner/repo") del header */
+.md-source__repository {
+  display: none !important;
+}
+
 .md-typeset .admonition,
 .md-typeset details,
-
 
