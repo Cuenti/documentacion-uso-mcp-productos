@@ -1,0 +1,43 @@
+site_name: MCP Productos Cuenti
+site_description: Documentación oficial del MCP de productos
+site_url: https://cuenti.github.io/mcp-productos-docs/
+repo_url: https://github.com/cuenti/mcp-productos-docs
+repo_name: cuenti/mcp-productos-docs
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  favicon: assets/favicon.ico
+  logo: assets/cuenti-logo.png
+  palette:
+    - scheme: default
+      primary: blue
+      accent: light blue
+  font:
+    text: Quicksand
+    code: Roboto Mono
+
+nav:
+  - Inicio: index.md
+  - Conexión y Autenticación: conexion.md
+  - Compatibilidad de Vectores: vectores.md
+  - Tools Disponibles: tools.md
+  - Contratos de Respuesta: respuestas.md
+  - Ejemplos de Consumo: ejemplos.md
+  - Ejemplos Descargables: ejemplos-uso.md
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - fenced_code
+  - attr_list
+  - def_list
+
+plugins:
+  - search
+
+extra_css:
+  - styles/extra.css

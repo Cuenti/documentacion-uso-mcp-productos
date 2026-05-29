@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Rubik:wght@300..900&display=swap");
+
+:root {
+  --cuenti-bg: #f4f4f6;
+  --cuenti-bg-soft: #f7f8fb;
+  --cuenti-surface: #fcfcfc;
+  --cuenti-text: #1a1a1a;
+  --cuenti-text-soft: #515151;
+  --cuenti-primary: #1b3f83;
+  --cuenti-primary-strong: #122a57;
+  --cuenti-accent: #ffc600;
+  --cuenti-border: #cdcdcd;
+  --cuenti-link: #2664cf;
+}
+
+body,
+input {
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, var(--cuenti-bg) 0%, var(--cuenti-bg-soft) 100%);
+  color: var(--cuenti-text);
+}
+
+.md-header {
+  background-color: var(--cuenti-primary);
+}
+
+.md-tabs {
+  background-color: var(--cuenti-primary-strong);
+}
+
+.md-content,
+.md-sidebar,
+.md-search__form,
+.md-typeset table:not([class]) {
+  border-color: var(--cuenti-border);
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6,
+.md-nav__title {
+  font-family: "Rubik", sans-serif;
+  color: var(--cuenti-primary-strong);
+}
+
+.md-header__title,
+.md-header__topic,
+.md-header__button,
+.md-header__ellipsis {
+  color: #ffffff !important;
+}
+
+.md-typeset,
+.md-nav,
+.md-header__topic,
+.md-search-result__title {
+  color: var(--cuenti-text);
+}
+
+.md-typeset p,
+.md-typeset li,
+.md-typeset td,
+.md-typeset th,
+.md-nav__item .md-nav__link {
+  color: var(--cuenti-text-soft);
+}
+
+.md-typeset a,
+.md-nav__link:hover,
+.md-tabs__link:hover {
+  color: var(--cuenti-link);
+}
+
+.md-typeset a:hover {
+  color: var(--cuenti-primary);
+}
+
+.md-typeset code {
+  background-color: #eef2f8;
+}
+
+.md-typeset .admonition,
+.md-typeset details,
+
+
