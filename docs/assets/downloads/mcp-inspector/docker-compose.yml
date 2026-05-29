@@ -1,0 +1,16 @@
+services:
+  mcp-inspector:
+    image: ghcr.io/modelcontextprotocol/inspector:latest
+    container_name: rag-mcp-inspector
+    environment:
+      HOST: 0.0.0.0
+      MCP_AUTO_OPEN_ENABLED: "false"
+      CLIENT_PORT: "6274"
+      SERVER_PORT: "6277"
+      ALLOWED_ORIGINS: "http://localhost:6274,http://127.0.0.1:6274,http://0.0.0.0:6274"
+    ports:
+      - "127.0.0.1:6274:6274"
+      - "127.0.0.1:6277:6277"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped

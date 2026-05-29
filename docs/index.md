@@ -74,5 +74,6 @@ Además existe una tool de conveniencia:
 - Si vas a enviar vectores precomputados: revisa [Compatibilidad de Vectores](vectores.md)
 - Si necesitas el detalle de inputs por tool: revisa [Tools Disponibles](tools.md)
 - Si necesitas el shape de salida: revisa [Contratos de Respuesta](respuestas.md)
+- Si quieres probar el MCP con Inspector usando Docker: revisa [Playground con MCP Inspector](playground-inspector.md)
 - Si quieres copiar ejemplos listos: revisa [Ejemplos de Consumo](ejemplos.md)
 - Si quieres descargar proyectos base listos para ejecutar: revisa [Ejemplos Descargables](ejemplos-uso.md)
