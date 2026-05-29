@@ -91,5 +91,7 @@ body {
 }
 
 .md-typeset .admonition,
-.md-typeset details,
-
+.md-typeset details {
+  border-color: var(--cuenti-border);
+  background-color: var(--cuenti-surface);
+}
