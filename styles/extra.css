@@ -90,7 +90,6 @@ body {
   display: none !important;
 }
 
-/* Oculta el botón/link completo del repositorio en el header (Material) */
 .md-header__source,
 .md-source {
   display: none !important;
