@@ -90,6 +90,11 @@ body {
   display: none !important;
 }
 
+.md-header__source,
+.md-source {
+  display: none !important;
+}
+
 .md-typeset .admonition,
 .md-typeset details {
   border-color: var(--cuenti-border);
